@@ -1,3 +1,5 @@
+<a href="https://amberkrodriguez.github.io/Portfolio-/">Main Page</a>
+
 <h2> JavaScript and PHP Validations </h2> 
 Assignment: Modify a Database-driven Web Application that Registers Students for Courses to Add both JavaScript and PHP Validations.
 
