@@ -1,10 +1,9 @@
-
-<h1> JavaScript and PHP Validations </h1> 
-<br> Objective: Modify a Database-driven Web Application that Registers Students for Courses to Add both JavaScript and PHP Validations.
+<h2> JavaScript and PHP Validations </h2> 
+Assignment: Modify a Database-driven Web Application that Registers Students for Courses to Add both JavaScript and PHP Validations.
 
 <br>
 <br>
-<h2>Javascript Validation </h2>
+<h3>Javascript Validation </h3>
 <ul>
   <li>For the javascript validation file  under the validate_NoMoreThan9CreditHours() method  called for text content of the element ID “CurrentCreditHoursElementID” and tested if it was grader than or less than 9 and displayed the required message if the number was already grader than 9 or equal to 9 and an empty string if it did not reach 9 yet. </li>
   <li>For the validate_NotPreviouslyRegistered() function I called for the text content of the currentCoursesElementID and the value of the selectCourseElementID . If the current registered courses were included in the selected course it would out put the necessary message that it was already registered for else returning a empty  string and continuing the registration process</li>
@@ -19,7 +18,7 @@
 <img width="1439" height="987" alt="image" src="https://github.com/user-attachments/assets/858ff41b-e89e-47f7-82c0-f952fb0248cc" />
 
 <br>
-<h2>PHP  script server-side validation</h2>
+<h3>PHP  script server-side validation</h3>
 <ul>
   <li><p>Inside the function validate_NoMoreThan9CreditHours($avail_Reg_Courses)
 I restated the code that was inside our Register-for-Courses.php that allowed us to take the array and split it into the separate identifiers then pull what was needed inorder to identify if the current credit were less than or greater than 9. </p></li>
@@ -36,7 +35,21 @@ I input the same function that was needed to pull and separate the array and if 
 <img width="1439" height="987" alt="image" src="https://github.com/user-attachments/assets/f3607bd8-a9bc-4a72-90b7-4a23289d79e8" />
 <img width="1439" height="987" alt="image" src="https://github.com/user-attachments/assets/8f31221a-af05-4f2c-87a4-38ceba06dac2" />
 
+<br>
+<br>
+<h2>Assignment: Develop a JavaScript Script to Create and Manipulate a JavaScript Array of Course Objects</h2>
+<ol>
+  <li>Define a Course class with 3 attributes</li>
+  <li>Create an array of Course objects that represent courses you have taken over the last three terms</li>
+  <li>Using the array of course objects, print out the number of courses</li>
+  Developed the print statement then added the attribute needed in order to count the number of objects in the array
+  <li>print out the values of all three attribute of each Course object</li>
+  <li>Added print statements to  printCourse() method </li>
+  <li>Using the array of course objects, determine if you have taken the CMSC 115 over the last three</li>
+  <li>Added a while loop to count down up to 6 and input the print statement in the printCourse() method. </li>     
+</ol>
 
 
+<img width="1419" height="889" alt="image" src="https://github.com/user-attachments/assets/7cc9cf39-f2a1-4c15-b121-bdd63a94c861" />
 
 
