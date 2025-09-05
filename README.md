@@ -1,7 +1,7 @@
 <a href="https://amberkrodriguez.github.io/Portfolio-/">Main Page</a>
 
 <h2> JavaScript and PHP Validations </h2> 
-Assignment: Modify a Database-driven Web Application that Registers Students for Courses to Add both JavaScript and PHP Validations.
+Assignment 1: Modify a Database-driven Web Application that Registers Students for Courses to Add both JavaScript and PHP Validations.
 
 <br>
 <br>
@@ -39,7 +39,23 @@ I input the same function that was needed to pull and separate the array and if 
 
 <br>
 <br>
-<h2>Assignment: Develop a JavaScript Script to Create and Manipulate a JavaScript Array of Course Objects</h2>
+<h2>Assignment 2 : Develop a PHP Script to Add and Display Course Records from a MYSQL Database Table</h2>
+<ol>
+  <li>Create a MySQL database called cmsc340 and create a table called mycourses inside the cmsc340 database.</li>
+  <li>Using PHP PDO, connect to the cmsc340 database by creating a PDO with appropriate connection attributes.</li>
+  <li>The form should have an HTML add button that the user can click on, after entering values in the fields of the HTML form, to add a record to the mycourses table using the form’s data</li>
+  <li>Display a listing of all records in the mycourses table currently exist along with the total number of credit hours of all courses in the able. 
+</li>
+  <li>When the user enters values in the fields of the HTML form and clicks the add button, the total credit hours of all the retrieved mycourses records is displayed</li>     
+</ol>
+<img width="682" height="482" alt="image" src="https://github.com/user-attachments/assets/973e5509-aa84-43ce-881f-85b568460282" />
+
+<img width="911" height="816" alt="image" src="https://github.com/user-attachments/assets/08d22df3-70d7-4ca9-8f9b-4e2f234e9fa6" />
+
+
+<br>
+<br>
+<h2>Assignment 3 : Develop a JavaScript Script to Create and Manipulate a JavaScript Array of Course Objects</h2>
 <ol>
   <li>Define a Course class with 3 attributes</li>
   <li>Create an array of Course objects that represent courses you have taken over the last three terms</li>
