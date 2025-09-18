@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>AssignmentW3</title>
+  
+  
+</head>
+<body>
+	<script type = "text/javascript">
+ 
+function Course(courseCode, courseTitle, courseCreditHours){ 
+   this.courseCode = courseCode
+   this.courseTitle = courseTitle
+   this.courseCreditHours = courseCreditHours
+   }
+
+function printCourse(){
+  
+   document.write("<br>Course " +count+ " information: <br>")
+   document.write("Code = " + courses.courseCode + " <br>")
+   document.write("Title = " + courses.courseTitle + " <br>")
+   document.write("Credit Hours = " + courses.courseCreditHours + " <br>")
+   }
+ total = 0 
+arrayOfClassObjects = Array(
+   new Course('MATH 140','Calculus 1', 4),
+   new Course('DATA 230','Math for Data Science', 3),
+   new Course('CMSC 315','Intermediate Programing', 3),
+   new Course('CMIT 202','Fund of Cmptr Troubleshooting', 3),
+   new Course('ACCT 220','Principles of Accounting', 3),
+   new Course('BIOL 103','Intro to Biology', 4))
+
+   total += arrayOfClassObjects.length
+   document.write("The number of UMGC courses I took over the last 3 terms = " +total+ "<br>")
+
+   document.write("<br>These courses are:<br>" )
+ 
+   count = 1
+   while (count<= 6){
+   for(courses of arrayOfClassObjects){
+       printCourse()
+       ++count;
+
+       if(courses.courseCode == "CMSC 115"){
+           cmsc = true;
+           }else{
+           cmsc = false;
+           }
+       }
+   }
+
+   if(cmsc == true){
+       document.write("<br>Yes, I have taken the CMSC 115 course")
+   }
+   else{
+  document.write("<br>No, I have not taken the CMSC 115 course")
+}
+
+</script>
+
+	</body>
+</html>
