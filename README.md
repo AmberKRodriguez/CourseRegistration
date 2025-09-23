@@ -1,6 +1,6 @@
 <a href="https://amberkrodriguez.github.io/Portfolio-/">Main Page</a>
 
-<h2>Objective: Develop a JavaScript Script to Create and Manipulate a JavaScript Array of Course Objects</h2>
+<p>Develop a JavaScript Script to Create and Manipulate a JavaScript Array of Course Objects</p>
 <ol>
  <h3>Steps Taken:</h3>
   <li>Define a Course class with 3 attributes</li>
