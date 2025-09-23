@@ -1,5 +1,6 @@
 <a href="https://amberkrodriguez.github.io/Portfolio-/">Main Page</a>
 
+<h1><a href="https://github.com/AmberKRodriguez/Manipulate-JavaScript-Array/blob/main/Project3%20-%20AmberRodriguez-ArraysOfCourseObjects%20(1).php">Manipulate a JavaScript Array</a></h1>
 <p>Develop a JavaScript Script to Create and Manipulate a JavaScript Array of Course Objects</p>
 <ol>
  <h3>Steps Taken:</h3>
